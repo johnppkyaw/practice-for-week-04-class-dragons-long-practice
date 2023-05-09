@@ -14,15 +14,15 @@ class Dragon {
 }
 
 //local testing
-const puff = new Dragon("Puff", "green");
-console.log(puff); //Dragon { name: 'Puff', color: 'green' }
-console.log(puff.breathesFire()); //Puff breathes fire everywhere! BURN!!!!
+// const puff = new Dragon("Puff", "green");
+// console.log(puff); //Dragon { name: 'Puff', color: 'green' }
+// console.log(puff.breathesFire()); //Puff breathes fire everywhere! BURN!!!!
 
-const toothless = new Dragon("Toothless", "black");
-console.log(toothless);//Dragon { name: 'Toothless', color: 'black' }
-console.log(toothless.breathesFire());//Toothless breathes fire everywhere! BURN!!!!
+// const toothless = new Dragon("Toothless", "black");
+// console.log(toothless);//Dragon { name: 'Toothless', color: 'black' }
+// console.log(toothless.breathesFire());//Toothless breathes fire everywhere! BURN!!!!
 
-console.log(Dragon.getDragons(puff, toothless));//[ 'Puff', 'Toothless' ]
+// console.log(Dragon.getDragons(puff, toothless));//[ 'Puff', 'Toothless' ]
 //
 
 /****************************************************************************/
