@@ -18,22 +18,22 @@ class EvilDragon extends Dragon {
   }
 }
 
-//LOCAL TESTING
-const drogon = new EvilDragon(
-  "Drogon",
-  "black-red",
-  [
-    "eat all your livestock",
-    "burn down your castle in Westeros",
-    "burn your father and brother"
-  ],
-  "Night King"
-);
-console.log(drogon);
-drogon.dontInviteThemOverForDinner();
-console.log(drogon.breathesFire());
-console.log(drogon.burnsNemesis());
-//
+// //LOCAL TESTING
+// const drogon = new EvilDragon(
+//   "Drogon",
+//   "black-red",
+//   [
+//     "eat all your livestock",
+//     "burn down your castle in Westeros",
+//     "burn your father and brother"
+//   ],
+//   "Night King"
+// );
+// console.log(drogon);
+// drogon.dontInviteThemOverForDinner();
+// console.log(drogon.breathesFire());
+// console.log(drogon.burnsNemesis());
+// //
 
 try {
   module.exports = EvilDragon;
