@@ -9,17 +9,17 @@ const smaug = new EvilDragon('Smaug', 'black', ['take over your mountain kingdom
 const allDragons = Dragon.getDragons(falkor, smaug);
 
 //local testing
-console.log(falkor);
-falkor.hasLifeGoals();
-console.log(falkor.breathesFire());
-console.log(falkor.helpsPeople());
+// console.log(falkor);
+// falkor.hasLifeGoals();
+// console.log(falkor.breathesFire());
+// console.log(falkor.helpsPeople());
 
-console.log(smaug);
-smaug.dontInviteThemOverForDinner();
-console.log(smaug.breathesFire());
-console.log(smaug.burnsNemesis());
+// console.log(smaug);
+// smaug.dontInviteThemOverForDinner();
+// console.log(smaug.breathesFire());
+// console.log(smaug.burnsNemesis());
 
-console.log(allDragons);
+// console.log(allDragons);
 //
 
 
